@@ -1,0 +1,824 @@
+{
+	"info": {
+		"_postman_id": "6f4e109d-1108-40cc-9ffe-f052840144f1",
+		"name": "AluraFlix",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "588562"
+	},
+	"item": [
+		{
+			"name": "Métricas Actuator",
+			"item": [
+				{
+					"name": "Counter execution",
+					"item": [
+						{
+							"name": "Salva na base os dados do video",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.count.videos.save",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.count.videos.save"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Busca na base todos os videos",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.count.videos.findAll",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.count.videos.findAll"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Busca na base os dados o video com o ID informado",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.count.videos.findById",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.count.videos.findById"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Atualiza o video com base nos dados informado",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.count.videos.update",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.count.videos.update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Atualiza o titulo do video com base nos dados informado",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.count.videos.updateTitle",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.count.videos.updateTitle"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Atualiza a descrição do video com base nos dados informado",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.count.videos.updateDescription",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.count.videos.updateDescription"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Atualiza a url do video com base nos dados informado",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.count.videos.updateUrl",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.count.videos.updateUrl"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Exclui o video com base no ID informado",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.count.videos.deleteById",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.count.videos.deleteById"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Timer execution",
+					"item": [
+						{
+							"name": "Salva na base os dados do video Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.time.videos.save",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.time.videos.save"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Busca na base todos os videos Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.time.videos.findAll",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.time.videos.findAll"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Busca na base os dados o video com o ID informado Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.time.videos.findById",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.time.videos.findById"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Atualiza o video com base nos dados informado Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.time.videos.update",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.time.videos.update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Atualiza o titulo do video com base nos dados informado Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.time.videos.updateTitle",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.time.videos.updateTitle"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Atualiza a descrição do video com base nos dados informado Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.time.videos.updateDescription",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.time.videos.updateDescription"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Atualiza a url do video com base nos dados informado Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.time.videos.updateUrl",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.time.videos.updateUrl"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Exclui o video com base no ID informado Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8010/api/actuator/metrics/execution.time.videos.deleteById",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8010",
+									"path": [
+										"api",
+										"actuator",
+										"metrics",
+										"execution.time.videos.deleteById"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Health check",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8010/api/actuator/health",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"actuator",
+								"health"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "APIs Actuator",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8010/api/actuator",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"actuator"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "All Metrics",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8010/api/actuator/metrics/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"actuator",
+								"metrics",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Documentação",
+			"item": [
+				{
+					"name": "Get Swagger",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8010/api/documentation",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"documentation"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "APIs",
+			"item": [
+				{
+					"name": "Adiciona dados de um novo video",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Execução com sucesso', function() {",
+									"    pm.response.to.have.status(200)",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n      \"title\": \"Qual é a diferença entre back-end e front-end?\",\n      \"description\": \"Afinal, existe diferença entre back-end e front-end? Nesse Alura+, o nosso instrutor Vinícius Dias vai responder a essa questão tão recorrente no mundo do desenvolvimento.\",\n      \"url\": \"https://www.youtube.com/watch?v=a-l4z6V2yXA\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8010/api/videos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"videos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualiza os dados de um novo video",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Execução com sucesso', function() {",
+									"    pm.response.to.have.status(200)",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"titleUpdate\",\n    \"description\": \"descriptionUpdate\",\n    \"url\": \"urlUpdate\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8010/api/videos/:ID",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"videos",
+								":ID"
+							],
+							"variable": [
+								{
+									"key": "ID",
+									"value": "8a1b9d9b-f5c6-4a41-9d2b-b0d17a7fd911"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualiza o titulo de um novo video",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Execução com sucesso', function() {",
+									"    pm.response.to.have.status(200)",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"titleUpdate1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8010/api/videos/:ID/title",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"videos",
+								":ID",
+								"title"
+							],
+							"variable": [
+								{
+									"key": "ID",
+									"value": "8a1b9d9b-f5c6-4a41-9d2b-b0d17a7fd911"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualiza a descrição de um novo video",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Execução com sucesso', function() {",
+									"    pm.response.to.have.status(200)",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"description\": \"descriptionUpdate1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8010/api/videos/:ID/description",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"videos",
+								":ID",
+								"description"
+							],
+							"variable": [
+								{
+									"key": "ID",
+									"value": "8a1b9d9b-f5c6-4a41-9d2b-b0d17a7fd911"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualiza a url de um novo video",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Execução com sucesso', function() {",
+									"    pm.response.to.have.status(200)",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"url\": \"urlUpdate1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8010/api/videos/:ID/url",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"videos",
+								":ID",
+								"url"
+							],
+							"variable": [
+								{
+									"key": "ID",
+									"value": "8a1b9d9b-f5c6-4a41-9d2b-b0d17a7fd911"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Busca todos os videos",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Execução com sucesso', function() {",
+									"    pm.response.to.have.status(200)",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8010/api/videos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"videos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Busca video com base no ID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Execução com sucesso', function() {",
+									"    pm.response.to.have.status(200)",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8010/api/videos/:ID",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"videos",
+								":ID"
+							],
+							"variable": [
+								{
+									"key": "ID",
+									"value": "8a1b9d9b-f5c6-4a41-9d2b-b0d17a7fd911"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Exclui um video com base no ID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Execução com sucesso', function() {",
+									"    pm.response.to.have.status(200)",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8010/api/videos/:ID",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"videos",
+								":ID"
+							],
+							"variable": [
+								{
+									"key": "ID",
+									"value": "8a1b9d9b-f5c6-4a41-9d2b-b0d17a7fd911"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
