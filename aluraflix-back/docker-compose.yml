@@ -1,0 +1,25 @@
+version: '3.3'
+
+networks:
+  commons-api:
+    driver: bridge
+
+volumes:
+  elasticsearch_data:
+    driver: local
+
+services:
+
+  postgres-compose:
+    image: postgres
+    restart: always
+    container_name: postgres-compose
+    environment:
+      POSTGRES_PASSWORD: "postgres"
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./data/postgres:/var/lib/postgresql/data
+    networks:
+      - commons-api
