@@ -3,6 +3,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 data/grafana/grafana.db
+node_modules/
 
 ### STS ###
 .apt_generated
